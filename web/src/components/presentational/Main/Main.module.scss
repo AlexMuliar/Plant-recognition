@@ -1,0 +1,128 @@
+
+.block {
+  background-color:  #252525;
+  height: 80vh;
+  
+  font-size: 26px;
+  text-align: justify;
+  line-height: 36px;
+  color: #232323;
+  position: relative;
+}
+
+// .block h2{
+//     width: 70%;
+//     margin: 0 auto;
+  
+//   }
+
+// .cardBlock {
+//     width: 50%;
+//     padding-top: 3em;
+//     display: flex;
+//     margin: 0 auto;
+    // background-color: #252525;
+
+// }
+
+// .text {
+//     font-size: 26px;
+//     text-align: justify;
+//     line-height: 36px;
+//     color: #232323;
+//     flex: 1;
+//     padding-right: 1em;
+// }
+// .img {
+//     padding-left: 1em;
+//     position: relative;
+//     height: 400px;
+//     flex: 1;
+//     overflow: hidden;
+
+// }
+// .img img {
+//     position: absolute;
+// }
+
+
+
+// .title {
+//     text-transform: uppercase;
+//     font-family: MyriadPro-Regular, sans-serif;
+//     font-size: 30px;
+//     padding-top: 75px;
+// }
+
+// .cardAlbum {
+//     display: flex;
+//     justify-content: space-between;
+//     flex-wrap: wrap;
+// }
+
+
+
+
+
+
+
+.updatePhotoBtn {
+    width: 100%;
+    height: 15%;
+    background-color: rgba(11, 11, 11, 0.6);
+    position: absolute;
+    right: 0;
+    border: none;
+    top: 85%;
+    margin-left: 4.3em;
+  }
+  .updatePhotoBtn:hover {
+    opacity: 0.8;
+  }
+  .updateSection span:hover {
+    opacity: 0.6;
+    cursor: pointer;
+  }
+  .blueText {
+    color: #0cc5ff;
+  }
+  .updatePhoto {
+    /* width: 100%; */
+    padding: 1px;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .updatePhoto span {
+    margin: 0 0.5em;
+    font-family: Ubuntu;
+    color: #fff;
+    font-size: 19px;
+  }
+
+
+  .button {
+      position: absolute;
+    width: 176px;
+    height: 41px;
+    display: block;
+    margin: 30px auto 0;
+    font-size: 16px;
+    border: none;
+    border: 2px solid #fff;
+    background: none;
+    color: #f1d9d6;
+}
+
+.button:hover {
+
+  background: #f1d9d6;
+  color: rgb(37, 37, 37);
+}
+
+.button:active,
+.button:focus {
+    outline: 0;
+}

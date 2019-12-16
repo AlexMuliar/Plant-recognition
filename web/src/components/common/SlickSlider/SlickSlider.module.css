@@ -1,0 +1,28 @@
+
+.sliderBlock {
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: center;
+  padding: 0 0;
+  outline: none;
+}
+
+.sliderBlock p {
+  padding: 0 0.5em;
+}
+.sliderBlock h3 {
+  padding: 0 0.5em;
+}
+
+
+
+.plantatorImgDiv{
+  width: calc(100% - 1em);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.plantatorImage{
+  height: 320px;
+}

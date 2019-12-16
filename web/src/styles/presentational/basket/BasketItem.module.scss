@@ -1,0 +1,32 @@
+@import "styles/variables.scss";
+
+
+.basketItem{
+    display: flex;
+    /* border: 1px solid; */
+    /* border-color: rgb(255, 0, 170); */
+}
+
+.basketItemImage{
+    display: flex;
+    flex: 1;
+    border: 1px solid;
+    border-color: $primaryColor;
+    padding: 1em;
+
+}
+.basketItemName{
+    flex: 3;
+    border: 1px solid;
+    border-color: $primaryColor;
+}
+.basketItemCount{
+    flex: 2;
+    border: 1px solid;
+    border-color: $primaryColor;
+}
+.basketItemPrice{
+    flex: 2;
+    border: 1px solid;
+    border-color: $primaryColor;
+}

@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    height: 100vh;
+
+    background: url('../../../assets/img/Plantator.jpg') 50%;
+    background-size: cover;
+  }
+  
+  .titleBlock {
+      padding: 5em 0;
+      width: 50%;
+      margin: 0 auto;
+      position: relative;
+      top: 24%;
+      color: #f1d9d6;
+      background-color: rgba(37, 37, 37, 0.95);
+    }
+    .resBlock {
+        padding: 5em 1em 5em 5em;
+        width: 70vw;
+        margin: 0 auto;
+        position: relative;
+        top: 5vh;
+        height: 70vh;
+        color: #f1d9d6;
+        background-color: rgba(37, 37, 37, 0.95);
+      }
+  
+  .text {
+      text-transform: uppercase;
+      font-family: MyriadPro-Semibold, sans-serif;
+      text-align: center;
+  }
+  
+  .title {
+    font-size: 82px;
+    color: #ff7171; 
+  }
+  
+  .subtitle {
+    text-transform: none;
+    font-size: 36px;
+    padding-top: 45px;
+  }
+  
+  .button {
+      width: 176px;
+      height: 41px;
+      display: block;
+      margin: 30px auto 0;
+      font-size: 16px;
+      border: none;
+      border: 2px solid #fff;
+      background: none;
+      color: #f1d9d6;
+  }
+  
+  .button:hover {
+
+    background: #f1d9d6;
+    color: rgb(37, 37, 37);
+  }
+  
+  .button:active,
+  .button:focus {
+      outline: 0;
+  }
+  
+
+
+  .mainPart{
+    display: flex;
+  }
+    .yourImgDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 40vh;
+    width: 20vw;
+}
+
+  .yourImg {
+    border: 1px solid #ff7171;
+    height: auto;
+    width: 20vw;
+  }
+  .resultImage{
+    border: 1px solid #ff7171;
+    height: 20vh;
+    margin: 1em;
+  }
+  .resImg{
+    border: 1px solid #ff7171;
+    height: 12vh;
+    margin: 1em;
+  }
+
+  .result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 60vw;
+    height: 70%;
+  }
+
+  .resText{
+    font-family: MyriadPro-Semibold, sans-serif;
+    color:  #f1d9d6;
+  }
+
+  .res{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+  }
+  .resDiv{
+      display: flex;
+  }
+
+  .resItem {
+    display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+
+  a{
+    font-family: MyriadPro-Semibold, sans-serif;
+    color:  #f1d9d6; 
+    text-decoration: none;
+    border: 1px solid #ff7171;
+    font-size: 22px;
+    padding: 0.5em;
+    color: #ff7171; 
+    position: absolute;
+    left: 1em;
+    bottom: 1em;
+  }
