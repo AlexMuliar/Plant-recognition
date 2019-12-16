@@ -17,7 +17,7 @@ Set dataset path
 ```python
 dataset_name = <name>
 ```
-
+Run^
 ```bash
 python train.py <model>
 ```
