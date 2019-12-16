@@ -7,4 +7,4 @@ npm start
 
 ## Site
 
-![img](./srс/assets/img/result.jpg)
+![img](https://github.com/AlexMuliar/Plant-recognition/blob/master/web/src/assets/img/result.jpg)
